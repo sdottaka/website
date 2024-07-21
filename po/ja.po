@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
 "POT-Creation-Date: 2013-04-29 21:48+0000\n"
-"PO-Revision-Date: 2024-07-21 10:54+0900\n"
+"PO-Revision-Date: 2024-07-21 16:55+0900\n"
 "Last-Translator: 藤本理弘 <mfujimot at gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -793,27 +793,27 @@ msgstr "サイズ"
 
 #: downloads/index.php:25
 msgid "Format"
-msgstr ""
+msgstr "形式"
 
 #: downloads/index.php:30 downloads/index.php:37 downloads/index.php:44
 #: downloads/index.php:51 downloads/index.php:58 downloads/index.php:65
 #: downloads/index.php:72 downloads/index.php:79
 #, c-format
 msgid "%s MB"
-msgstr ""
+msgstr "%s MB"
 
 #: downloads/index.php:32 downloads/index.php:39 downloads/index.php:46
 #: downloads/index.php:53
 msgid "EXE"
-msgstr ""
+msgstr "EXE"
 
 #: downloads/index.php:60 downloads/index.php:67 downloads/index.php:74
 msgid "ZIP"
-msgstr ""
+msgstr "ZIP"
 
 #: downloads/index.php:81
 msgid "7z"
-msgstr ""
+msgstr "7z"
 
 #: engine/engine.inc:23
 msgid "Catalan"
@@ -837,69 +837,71 @@ msgstr ""
 
 #: engine/page.inc:195
 msgid "Change Language"
-msgstr ""
+msgstr "言語を変更"
 
 #: engine/page.inc:212
 msgid "Project Pages"
-msgstr ""
+msgstr "プロジェクトページ"
 
 #: translations/index.php:16
 msgid "WinMerge Status"
-msgstr ""
+msgstr "WinMergeのステータス"
 
 #: translations/index.php:17
 msgid "ShellExtension Status"
-msgstr ""
+msgstr "シェル拡張のステータス"
 
 #: translations/index.php:18 translations/index.php:45
 msgid "InnoSetup Files"
-msgstr ""
+msgstr "InnoSetupファイル"
 
 #: translations/index.php:19 translations/index.php:48
 msgid "Readme Files"
-msgstr ""
+msgstr "Readmeファイル"
 
 #: translations/index.php:39
 #, c-format
 msgid "WinMerge Status <em>from %s</em>"
-msgstr ""
+msgstr "WinMergeのステータス <em>from %s</em>"
 
 #: translations/index.php:42
 #, c-format
 msgid "ShellExtension Status <em>from %s</em>"
-msgstr ""
+msgstr "シェル拡張のステータス <em>from %s</em>"
 
 #: translations/status_website.php:17
 #, c-format
 msgid "Website Status <em>from %s</em>"
-msgstr ""
+msgstr "ウェブサイトのステータス <em>from %s</em>"
 
 #: downloads/index.php:86
 msgid "SHA-256 Checksums"
-msgstr ""
+msgstr "SHA-256 チェックサム"
 
 #: downloads/index.php:116
 msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
-msgstr ""
+msgstr "WinMerge 2.14.0 <em>Windows 2000用</em>"
 
 #: downloads/index.php:117
 msgid ""
 "WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
 "C++ 2008 runtimes that support Windows 2000."
 msgstr ""
+"WinMerge バージョン 2.14.0 は、Windows 2000 をサポートする Microsoft Visual C++ 2008 "
+"ランタイムが同梱された最後のバージョンです。"
 
 #: downloads/index.php:119 downloads/index.php:124
 #, c-format
 msgid "Get version %s"
-msgstr ""
+msgstr "バージョン %s を取得"
 
 #: downloads/index.php:126
 msgid "Unofficial Versions"
-msgstr ""
+msgstr "非公式バージョン"
 
 #: engine/page.inc:348
 msgid "WinMerge Source Code"
-msgstr ""
+msgstr "WinMerge ソースコード"
 
 #: index.php:25
 msgid "Supports Microsoft Windows XP SP3 or newer"
@@ -907,15 +909,15 @@ msgstr "Microsoft Windows XP SP3以降をサポート"
 
 #: index.php:32 screenshots/index.php:15 screenshots/index.php:16
 msgid "3-way File Comparison"
-msgstr ""
+msgstr "3方向ファイル比較"
 
 #: index.php:32 index.php:48 index.php:54
 msgid "New!"
-msgstr ""
+msgstr "New!"
 
 #: index.php:46
 msgid "3-way Folder Comparison"
-msgstr ""
+msgstr "3方向フォルダー比較"
 
 #: index.php:48
 msgid "Image Compare"
@@ -937,20 +939,20 @@ msgstr "画像の重ね合わせが可能です"
 msgid ""
 "The 3-way file compare even allows comparing and editing three files at the "
 "same time."
-msgstr ""
+msgstr "三方向のファイル比較は、同時に三つのファイルを比較して編集することもできます。"
 
 #: screenshots/index.php:27 screenshots/index.php:28
 msgid "Image Comparison"
-msgstr ""
+msgstr "画像比較"
 
 #: screenshots/index.php:29
 msgid ""
 "WinMerge can compare images and highlight the differences in several ways."
-msgstr ""
+msgstr "WinMergeは画像を比較し、いくつかの方法で差異を強調表示できます。"
 
 #: screenshots/index.php:35 screenshots/index.php:36
 msgid "Binary Comparison"
-msgstr ""
+msgstr "バイナリ比較"
 
 #: screenshots/index.php:37
 msgid ""
@@ -958,78 +960,80 @@ msgid ""
 "launch a file compare operation on binary files, WinMerge opens each file in"
 " the binary file editor."
 msgstr ""
+"WinMergeは、ファイルがテキスト形式かバイナリ形式かを検出できます。バイナリファイルに対してファイル比較操作を開始すると、WinMergeは "
+"各ファイルをバイナリエディタで開きます。"
 
 #: source-code/index.php:34
 msgid "Clone or download"
-msgstr ""
+msgstr "クローンまたはダウンロード"
 
 #: translations/index.php:20
 msgid "Website Status"
-msgstr ""
+msgstr "ウェブサイトの状態"
 
 #: docs/index.php:7
 msgid ""
 "WinMerge, documentation, manual, release notes, known issues, change log, "
 "Development Wiki"
-msgstr ""
+msgstr "WinMerge、ドキュメンテーション、マニュアル、リリースノート、既知の問題、変更履歴、開発ウィキ"
 
 #: downloads/index.php:129
 msgid "Continuous Integration Builds"
-msgstr ""
+msgstr "継続的インテグレーションビルド"
 
 #: source-code/index.php:9
 msgid "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
-msgstr ""
+msgstr "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
 
 #: source-code/index.php:10 source-code/index.php:57
 msgid "Recent Commits"
-msgstr ""
+msgstr "最近のコミット"
 
 #: source-code/index.php:35
 #, c-format
 msgid ""
 "The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a "
 "href=\"%2$s\">Git</a> repository:"
-msgstr ""
+msgstr "ソースコードは<a href=\"%1$s\">GitHub</a>の<a href=\"%2$s\">Git</a>リポジトリにホストされています。"
 
 #: source-code/index.php:69
 msgid "View all commits&hellip;"
-msgstr ""
+msgstr "すべてのコミットを表示&hellip;"
 
 #: translations/status_website.php:9
 #, c-format
 msgid ""
 "We moved the sources from the website to a own <a href=\"%1$s\">GitHub "
 "repository</a>."
-msgstr ""
+msgstr "私たちはソースをウェブサイトから独自の<a href=\"%1$s\">GitHubリポジトリ</a>に移しました。"
 
 #: translations/translations.inc:315
 msgid "Maintainer"
-msgstr ""
+msgstr "メンテナー"
 
 #: docs/index.php:13
 msgid "It is currently available in the following languages:"
-msgstr ""
+msgstr "現在、以下の言語でご利用いただけます:"
 
 #: source-code/index.php:44
 msgid "Branch"
-msgstr ""
+msgstr "ブランチ"
 
 #: downloads/index.php:38
 msgid "Per-user installer"
-msgstr ""
+msgstr "ユーザーごとのインストーラー"
 
 #: downloads/index.php:110
 msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
-msgstr ""
+msgstr "32ビットインストーラー: Microsoft Windows XP SP3 以降"
 
 #: downloads/index.php:111
 msgid "64-bit installer: Microsoft Windows 7 or newer"
-msgstr ""
+msgstr "64ビットインストーラー: Microsoft Windows 7 以降"
 
 #: downloads/index.php:112
 msgid "Admin rights for the installer (except for Per-user installer)"
-msgstr ""
+msgstr "インストーラーの管理者権限（ユーザーごとのインストーラーを除く）"
 
 #: index.php:54
 msgid "Table Compare"
@@ -1045,15 +1049,15 @@ msgstr "列ごとにテキストを折り返すことができます"
 
 #: screenshots/index.php:31 screenshots/index.php:32
 msgid "Table Comparison"
-msgstr ""
+msgstr "テーブル比較"
 
 #: screenshots/index.php:33
 msgid "Table compare shows the contents of CSV/TSV files in table format."
-msgstr ""
+msgstr "テーブル比較は、CSV/TSVファイルの内容をテーブル形式で表示します。"
 
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
-msgstr ""
+msgstr "現在のブランチをZIPファイルとしてダウンロードすることもできます："
 
 #: engine/engine.inc:37
 msgid "Slovenian"
@@ -1061,37 +1065,38 @@ msgstr "Slovenian"
 
 #: support/index.php:5
 msgid "The Open Discussion forum is the fastest way to get help."
-msgstr ""
+msgstr "オープンディスカッションフォーラムは、最も早く助けを得る方法です。"
 
 #: support/index.php:6
 msgid ""
 "WinMerge, support, discussion forums, tracker, donate, bugs, support "
 "requests, patches, feature requests, todo, open source"
 msgstr ""
+"WinMerge、サポート、ディスカッションフォーラム、トラッカー、寄付、バグ、サポートリクエスト、パッチ、機能リクエスト、TODO、オープンソース"
 
 #: support/index.php:10
 msgid "The <b>Discussion forums</b> are the fastest way to get help:"
-msgstr ""
+msgstr "<b>ディスカッションフォーラム</b>は、最も早く助けを得る方法です："
 
 #: support/index.php:13
 msgid "WinMerge discussions"
-msgstr ""
+msgstr "WinMergeディスカッション"
 
 #: support/index.php:14
 msgid "Image Compare discussions"
-msgstr ""
+msgstr "画像比較ディスカッション"
 
 #: support/index.php:15
 msgid "Website discussions"
-msgstr ""
+msgstr "ウェブサイトディスカッション"
 
 #: support/index.php:17
 msgid "Please be patient, it may take some time for somebody to answer."
-msgstr ""
+msgstr "お待ちいただければ幸いです。誰かが回答するまでに少し時間がかかる場合があります。"
 
 #: support/index.php:19
 msgid "Issues"
-msgstr ""
+msgstr "問題"
 
 #: engine/engine.inc:24
 msgid "Corsican"
