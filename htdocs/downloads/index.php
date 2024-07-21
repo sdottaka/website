@@ -19,54 +19,63 @@
   <table class="table is-striped">
     <tr>
       <th class="left"><?php __e('Download');?></th>
+      <th class="center"><?php __e('Architecture');?></th>
       <th class="center"><?php __e('Size');?></th>
       <th class="center"><?php __e('Type');?></th>
       <th class="center"><?php __e('Format');?></th>
     </tr>
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64.exe');?>" target="_blank" class="button"><?php echo $stablerelease->getDownloadFileName('setup64.exe');?></a></td>
+      <td class="center"><?php echo $stablerelease->getDownloadArch('setup64.exe');?></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup64.exe'));?></td>
       <td class="center"><?php __e('Installer');?></td>
       <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64peruser.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup64peruser.exe');?></a></td>
+      <td class="center"><?php echo $stablerelease->getDownloadArch('setup64peruser.exe');?></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup64peruser.exe'));?></td>
       <td class="center"><?php __e('Per-user installer');?></td>
       <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('setuparm64.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setuparm64.exe');?></a></td>
+      <td class="center"><?php echo $stablerelease->getDownloadArch('setuparm64.exe');?></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setuparm64.exe'));?></td>
       <td class="center"><?php __e('Installer');?></td>
       <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
+      <td class="center"><?php echo $stablerelease->getDownloadArch('setup.exe');?></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
       <td class="center"><?php __e('Installer');?></td>
       <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('exe64.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe64.zip');?></a></td>
+      <td class="center"><?php echo $stablerelease->getDownloadArch('exe64.zip');?></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe64.zip'));?></td>
       <td class="center"><?php __e('Binaries');?></td>
       <td class="center"><?php __e('ZIP');?></td>
     </tr>
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('exearm64.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exearm64.zip');?></a></td>
+      <td class="center"><?php echo $stablerelease->getDownloadArch('exearm64.zip');?></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exearm64.zip'));?></td>
       <td class="center"><?php __e('Binaries');?></td>
       <td class="center"><?php __e('ZIP');?></td>
     </tr>
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
+      <td class="center"><?php echo $stablerelease->getDownloadArch('exe.zip');?></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
       <td class="center"><?php __e('Binaries');?></td>
       <td class="center"><?php __e('ZIP');?></td>
     </tr>
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('src.7z');?>" target="_blank" class="button is-light"><?php echo $stablerelease->getDownloadFileName('src.7z');?></a></td>
+      <td class="center"><?php echo $stablerelease->getDownloadArch('src.7z');?></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('src.7z'));?></td>
       <td class="center"><?php __e('Source Code');?></td>
       <td class="center"><?php __e('7z');?></td>

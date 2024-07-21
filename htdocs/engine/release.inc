@@ -25,6 +25,7 @@
       $this->_versionnumber = '';
       $this->_date = '';
       $this->_downloads = array();
+      $this->_downloadarch = array();
       $this->_downloadsizes = array();
       $this->_downloadsha256sums = array();
       $this->_releasenotes = '';
@@ -71,8 +72,9 @@
     /**
      * add a download from the release
      */
-    function addDownload($id, $url, $size, $sha256 = '') {
+    function addDownload($id, $arch, $url, $size, $sha256 = '') {
       $this->_downloads[$id] = $url;
+      $this->_downloadarch[$id] = $arch;
       $this->_downloadsizes[$id] = $size;
       $this->_downloadsha256sums[$id] = $sha256;
     }
@@ -82,6 +84,13 @@
      */
     function getDownload($id) {
       return $this->_downloads[$id];
+    }
+
+    /**
+     * get a download architecture from the release
+     */
+    function getDownloadArch($id) {
+      return $this->_downloadarch[$id];
     }
 
     /**

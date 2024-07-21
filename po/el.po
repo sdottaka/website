@@ -21,19 +21,15 @@ msgstr ""
 "X-Poedit-Language: Greek\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: docs/changelog.php:10
-msgid "The change log is currently not available..."
-msgstr "Ο κατάλογος αλλαγών δεν είναι διαθέσιμος αυτήν τη στιγμή..."
-
-#: index.php:12
+#: index.php:10
 msgid "What is WinMerge?"
 msgstr "Τι είναι το WinMerge;"
 
-#: downloads/index.php:112
+#: downloads/index.php:121
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
 msgstr "WinMerge 2.12.4 <em>για το Windows 95/98/ME/NT</em>"
 
-#: index.php:23
+#: index.php:21
 msgid ""
 "In addition, WinMerge has many helpful supporting features that make "
 "comparing, synchronising, and merging as easy and useful as possible:"
@@ -53,11 +49,11 @@ msgstr ""
 "συγχρονισμό φακέλων μέσω αντιγραφής και διαγραφής αρχείων και υποφακέλων. Η "
 "σύγκριση φακέλων μπορεί να προβληθεί με πολλούς διαφορετικούς τρόπους."
 
-#: engine/page.inc:347
+#: engine/page.inc:349
 msgid "WinMerge Support"
 msgstr "Υποστήριξη WinMerge"
 
-#: index.php:46
+#: index.php:44
 msgid "Compares one folder or includes all subfolders"
 msgstr "Συγκρίνει έναν φάκελο ή περιλαμβάνει όλους τους υποφακέλους"
 
@@ -69,7 +65,7 @@ msgstr ""
 "Όσες περισσότερες πληροφορίες υπάρχουν σε μια αναφορά σφάλματος τόσο "
 "πιθανότερο είναι ένα σφάλμα να διορθωθεί γρήγορα."
 
-#: index.php:13
+#: index.php:11
 #, c-format
 msgid ""
 "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool "
@@ -81,15 +77,15 @@ msgstr ""
 "συγκρίνει φακέλους και αρχεία και να παρουσιάσει τις διαφορές τους σε "
 "εύληπτη και εύκολα επεξεργάσιμη μορφή κειμένου."
 
-#: translations/translations.inc:156
+#: translations/translations.inc:161
 msgid "Total: Unknown"
 msgstr "Σύνολο: Άγνωστο"
 
-#: engine/engine.inc:24
+#: engine/engine.inc:26
 msgid "Greek"
 msgstr "Ελληνικα"
 
-#: 404.php:22 docs/index.php:15 engine/engine.inc:19
+#: 404.php:22 docs/index.php:16 engine/engine.inc:21
 msgid "English"
 msgstr "Αγγλικά"
 
@@ -106,7 +102,7 @@ msgstr ""
 msgid "Download"
 msgstr "Λήψη"
 
-#: engine/page.inc:342
+#: engine/page.inc:344
 msgid "Home"
 msgstr "Αρχική"
 
@@ -120,24 +116,24 @@ msgstr ""
 "εκτελέσετε το Πρόγραμμα Εγκατάστασης. Διαβάστε οδηγίες χρήσης στο <a "
 "href=\"%s\">online εγχειρίδιο</a>."
 
-#: 404.php:33 engine/page.inc:347 index.php:91 support/index.php:7
+#: 404.php:33 engine/page.inc:349 index.php:76 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "Υποστήριξη"
 
-#: index.php:39
+#: index.php:37
 msgid "Location pane shows map of files compared"
 msgstr "Το παράθυρο θέσης εμφανίζει χάρτη των συγκρινόμενων αρχείων"
 
-#: engine/page.inc:217 support/index.php:25
+#: engine/page.inc:219 support/index.php:25
 msgid "Donate"
 msgstr "Δωρεά"
 
-#: index.php:61
+#: index.php:59
 msgid "Version Control"
 msgstr "Έλεγχος έκδοσης"
 
-#: index.php:6
+#: index.php:5
 msgid ""
 "WinMerge is an Open Source differencing and merging tool for Windows. "
 "WinMerge can compare both folders and files, presenting differences in a "
@@ -148,36 +144,27 @@ msgstr ""
 " να παρουσιάσεις τις διαφορές τους σε εύληπτη και εύκολα επεξεργάσιμη μορφή "
 "κειμένου."
 
-#: index.php:68
+#: index.php:66
 msgid "Shell Integration (supports 64-bit Windows versions)"
 msgstr "Ενσωμάτωση στο κέλυφος (υποστήριξη για εκδόσεις 64 bit των Windows)"
 
-#: engine/engine.inc:31
+#: engine/engine.inc:34
 msgid "Russian"
 msgstr "Ρωσικα"
-
-#: docs/releasenotes.php:5
-msgid ""
-"The release notes are a short summary of important changes, enhancements, "
-"bug fixes and known issues in the current WinMerge release."
-msgstr ""
-"Οι σημειώσεις κυκλοφορίας είναι μια σύνοψη των σημαντικών αλλαγών, των "
-"βελτιώσεων, των επιδιορθώσεων σφαλμάτων και των γνωστών προβλημάτων στην "
-"τρέχουσα κυκλοφορία του WinMerge."
 
 #: translations/translations.inc:34
 msgid "File not found."
 msgstr "Δε βρέθηκε το αρχείο."
 
-#: index.php:70
+#: index.php:68
 msgid "Plugin support"
 msgstr "Υποστήριξη για πρόσθετα"
 
-#: index.php:32
+#: index.php:30
 msgid "File Compare"
 msgstr "Σύγκριση αρχείων"
 
-#: engine/engine.inc:25
+#: engine/engine.inc:27
 msgid "German"
 msgstr "Γερμανικά"
 
@@ -196,44 +183,44 @@ msgstr ""
 "&#8594; <span class=\"guimenuitem\">Διαμόρφωση</span> από το παράθυρο του "
 "WinMerge."
 
-#: engine/engine.inc:20
+#: engine/engine.inc:22
 msgid "Basque"
 msgstr "Βασκικα"
 
-#: engine/page.inc:213
+#: engine/page.inc:215
 msgid "Archive"
 msgstr "Αρχειοθήκη"
 
-#: engine/page.inc:343
+#: engine/page.inc:345
 msgid "WinMerge Documentation"
 msgstr "Τεκμηρίωση WinMerge"
 
 #: translations/translations.inc:78 translations/translations.inc:90
-#: translations/translations.inc:108
+#: translations/translations.inc:113
 msgid "Untranslated"
 msgstr "Αμετάφραστα"
 
-#: index.php:17 screenshots/index.php:11 screenshots/index.php:12
+#: index.php:15 screenshots/index.php:11 screenshots/index.php:12
 msgid "File Comparison"
 msgstr "Σύγκριση αρχείων"
 
-#: engine/engine.inc:23
+#: engine/engine.inc:25
 msgid "Dutch"
 msgstr "Ολλανδικά"
 
-#: translations/translations.inc:153
+#: translations/translations.inc:158
 #, c-format
 msgid "Total: %d"
 msgstr "Σύνολο: %d"
 
-#: index.php:19
+#: index.php:17
 #, c-format
 msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
 msgstr ""
 "Στη <a href=\"%s\">σελίδα Στιγμιότυπα</a> υπάρχουν περισσότερα στιγμιότυπα "
 "οθόνης."
 
-#: downloads/index.php:113
+#: downloads/index.php:122
 msgid ""
 "WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
@@ -242,10 +229,6 @@ msgstr ""
 "Η WinMerge έκδοση 2.12.4 ήταν η τελευταία έκδοση με το Microsoft Visual C + "
 "+ 2005 που υποστηρίζε το Windows 95/98/Me/NT. Ήταν επίσης η τελευταία έκδοση"
 " που μεταφέρει με ANSI έκδοση του WinMerge. "
-
-#: index.php:88
-msgid "View all news&hellip;"
-msgstr "Προβολή όλων των νέων&hellip;"
 
 #: translations/index.php:34
 #, c-format
@@ -260,11 +243,11 @@ msgstr ""
 msgid "Open-dialog"
 msgstr "Πλαίσιο διαλόγου \"Άνοιγμα\""
 
-#: 404.php:23 docs/index.php:16 engine/engine.inc:27
+#: 404.php:23 docs/index.php:17 engine/engine.inc:29
 msgid "Japanese"
 msgstr "Γιαπωνέζικα"
 
-#: downloads/index.php:121
+#: downloads/index.php:130
 msgid "(by PortableApps.com)"
 msgstr "(από το PortableApps.com)"
 
@@ -279,7 +262,7 @@ msgstr ""
 "χρήστης μπορεί εύκολα να κάνει μικρές αλλαγές χωρίς να χρειαστεί να ανοίξει "
 "τα αρχεία με άλλο πρόγραμμα επεξεργασίας ή άλλο περιβάλλον ανάπτυξης."
 
-#: downloads/index.php:98
+#: downloads/index.php:107
 msgid "Requirements"
 msgstr "Απαιτήσεις"
 
@@ -293,11 +276,11 @@ msgstr ""
 " ιστοχώρο, απαρχαιωμένο εύρημα μηχανής αναζήτησης ή απλώς διαγραφή αρχείο "
 "από εμάς) η σελίδα που αναζητήσατε δεν βρέθηκε."
 
-#: index.php:94
+#: index.php:79
 msgid "Developers"
 msgstr "Προγραμματιστές"
 
-#: index.php:44
+#: index.php:42
 msgid ""
 "Regular Expression based file filters allow excluding and including items"
 msgstr ""
@@ -308,7 +291,7 @@ msgstr ""
 msgid "The translations status is currently not available..."
 msgstr "Η κατάσταση των μεταφράσεων δεν είναι διαθέσιμη αυτήν τη στιγμή..."
 
-#: index.php:45
+#: index.php:43
 msgid "Fast compare using file sizes and dates"
 msgstr "Γρήγορη σύγκριση με χρήση μεγέθους και ημερομηνιών των αρχείων"
 
@@ -325,17 +308,9 @@ msgstr ""
 "αποτελέσματα σύγκρισης φακέλων, επισήμανση διαφορών στις γραμμές, παράθυρο "
 "θέσης, οθόνη εκκίνησης"
 
-#: 404.php:27 docs/changelog.php:7 docs/index.php:21
+#: 404.php:27 docs/index.php:22
 msgid "Change Log"
 msgstr "Κατάλογος αλλαγών"
-
-#: docs/changelog.php:5
-msgid ""
-"The change log is a more complete list of changes in the last WinMerge "
-"releases."
-msgstr ""
-"Ο κατάλογος αλλαγών είναι μια πλήρης λίστα των αλλαγών στις τελευταίες "
-"κυκλοφορίες του WinMerge."
 
 #: downloads/index.php:8
 msgid ""
@@ -345,7 +320,7 @@ msgstr ""
 "WinMerge, δωρεάν, λήψη, Windows, εγκατάσταση, πρόγραμμα εγκατάστασης, "
 "δυαδικά αρχεία, περιβάλλοντα εκτέλεσης, σταθερή, beta, πειραματική, φορητό"
 
-#: downloads/index.php:23
+#: downloads/index.php:24
 msgid "Type"
 msgstr "Τύπος"
 
@@ -353,11 +328,11 @@ msgstr "Τύπος"
 msgid "Page Not Found..."
 msgstr "Η σελίδα δεν βρέθηκε..."
 
-#: index.php:64
+#: index.php:62
 msgid "Resolve conflict files"
 msgstr "Επίλυση διενέξεων αρχείων"
 
-#: 404.php:34 engine/page.inc:348 translations/index.php:7
+#: 404.php:34 engine/page.inc:350 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "Μεταφράσεις"
@@ -376,16 +351,16 @@ msgstr ""
 msgid "Translations Status"
 msgstr "Κατάσταση μεταφράσεων"
 
-#: translations/translations.inc:109
+#: translations/translations.inc:114
 msgid "Last Update"
 msgstr "Τελευταία επικαιροποίηση"
 
-#: 404.php:32 downloads/index.php:71 engine/page.inc:346
+#: 404.php:32 downloads/index.php:80 engine/page.inc:348
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Πηγαίος κώδικας"
 
-#: docs/index.php:5
+#: docs/index.php:6
 msgid ""
 "Documentation from WinMerge like manual, release notes, change log and "
 "Development Wiki."
@@ -393,7 +368,7 @@ msgstr ""
 "Υλικό τεκμηρίωσης του WinMerge, όπως εγχειρίδιο χρήσης, σημειώσεις "
 "κυκλοφορίας, κατάλογος αλλαγών και Wiki Ανάπτυξης."
 
-#: docs/index.php:24
+#: docs/index.php:25
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -402,11 +377,11 @@ msgstr ""
 "Το <a href=\"%s\">Wiki Ανάπτυξης</a> περιέχει πλούτο πληροφοριών για την "
 "ανάπτυξη του WinMerge."
 
-#: downloads/index.php:29 downloads/index.php:41 downloads/index.php:47
+#: downloads/index.php:31 downloads/index.php:45 downloads/index.php:52
 msgid "Installer"
 msgstr "Πρόγραμμα εγκατάστασης"
 
-#: index.php:75
+#: index.php:73
 #, c-format
 msgid "WinMerge %s - latest stable version"
 msgstr "WinMerge %s - τελευταία σταθερή έκδοση"
@@ -419,11 +394,11 @@ msgstr ""
 "Το WinMerge επιτρέπει την επιλογή και το άνοιγμα διαδρομών με διάφορους "
 "τρόπους. Ένας από αυτούς είναι μέσω του πλαισίου διαλόγου Άνοιγμα."
 
-#: index.php:15
+#: index.php:13
 msgid "Screenshot"
 msgstr "Στιγμιότυπο"
 
-#: engine/page.inc:345
+#: engine/page.inc:347
 msgid "WinMerge Screenshots"
 msgstr "Στιγμιότυπα WinMerge"
 
@@ -435,14 +410,6 @@ msgstr ""
 "Στιγμιότυπα από το WinMerge, γνωρίσματα όπως σύγκριση αρχείων, αποτελέσματα "
 "σύγκρισης φακέλων και παράθυρο θέσης."
 
-#: docs/releasenotes.php:6
-msgid ""
-"WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
-"issues, release"
-msgstr ""
-"WinMerge, σημειώσεις κυκλοφορίας, σύνοψη, αλλαγές, βελτιώσεις, επιδιορθώσεις"
-" σφαλμάτων, γνωστά προβλήματα, κυκλοφορία"
-
 #: source-code/index.php:8
 msgid ""
 "Download the source code of WinMerge, which is released under the GNU "
@@ -451,7 +418,7 @@ msgstr ""
 "Κατεβάστε τον πηγαίο κώδικα του WinMerge, που κυκλοφορεί υπό τη Γενική "
 "Δημόσια Άδεια GNU."
 
-#: engine/page.inc:342
+#: engine/page.inc:344
 msgid "WinMerge Home"
 msgstr "Αρχική σελίδα WinMerge"
 
@@ -460,7 +427,7 @@ msgstr "Αρχική σελίδα WinMerge"
 msgid "WinMerge %s"
 msgstr "WinMerge %s"
 
-#: index.php:21
+#: index.php:19
 msgid "Features"
 msgstr "Δυνατότητες"
 
@@ -468,7 +435,7 @@ msgstr "Δυνατότητες"
 msgid "Folder Comparison Results"
 msgstr "Αποτελέσματα σύγκρισης φακέλων"
 
-#: index.php:29
+#: index.php:27
 msgid "Unicode support"
 msgstr "Υποστήριξη Unicode"
 
@@ -487,11 +454,11 @@ msgstr ""
 msgid "Y-m-d H:i"
 msgstr "Ε-μ-η Ω:λ"
 
-#: translations/translations.inc:104 translations/translations.inc:330
+#: translations/translations.inc:109 translations/translations.inc:335
 msgid "Language"
 msgstr "Γλώσσα"
 
-#: downloads/index.php:142 index.php:86
+#: downloads/index.php:143
 msgid "Y-m-d"
 msgstr "Y-m-d"
 
@@ -499,8 +466,7 @@ msgstr "Y-m-d"
 msgid "Instructions"
 msgstr "Οδηγίες"
 
-#: 404.php:26 docs/index.php:19 docs/releasenotes.php:7
-#: docs/releasenotes.php:10
+#: 404.php:26 docs/index.php:20
 msgid "Release Notes"
 msgstr "Σημειώσεις κυκλοφορίας"
 
@@ -509,54 +475,48 @@ msgstr "Σημειώσεις κυκλοφορίας"
 msgid "Untranslated: %d%%"
 msgstr "Αμετάφραστα: %d%%"
 
-#: engine/page.inc:344
+#: engine/page.inc:346
 msgid "WinMerge Downloads"
 msgstr "Στοιχεία λήψης WinMerge"
 
-#: engine/engine.inc:29
+#: engine/engine.inc:32
 msgid "Portuguese (Brazil)"
 msgstr "Πορτογαλικα (Βραζιλια)"
 
-#: index.php:36
+#: index.php:34
 msgid "Flexible editor with syntax highlighting, line numbers and word-wrap"
 msgstr ""
 "Ευέλικτο πρόγραμμα επεξεργασίας με επισήμανση συντακτικού, αριθμούς γραμμής "
 "και αναδίπλωση λέξεων"
 
-#: index.php:28
+#: index.php:26
 msgid "Handles Windows, Unix and Mac text file formats"
 msgstr "Χειρίζεται μορφές αρχείων κειμένου από Windows, Unix και Mac"
 
-#: translations/translations.inc:150 translations/translations.inc:179
-#: translations/translations.inc:182
+#: translations/translations.inc:155 translations/translations.inc:184
+#: translations/translations.inc:187
 msgid "Template"
 msgstr "Πρότυπο"
 
-#: engine/engine.inc:26
+#: engine/engine.inc:28
 msgid "French"
 msgstr "Γαλλικά"
 
-#: docs/changelog.php:6
-msgid "WinMerge, change log, changes, release, tracker item, revision number"
-msgstr ""
-"WinMerge, κατάλογος αλλαγών, αλλαγή, κυκλοφορία, στοιχείο ιχνηλάτη, αριθμός "
-"αναθεώρησης"
-
-#: index.php:47
+#: index.php:45
 msgid "Can show folder compare results in a tree-style view"
 msgstr ""
 "Μπορεί να εμφανίσει τα αποτελέσματα της σύγκρισης φακέλων σε μορφή δένδρου"
 
-#: index.php:72
+#: index.php:70
 #, c-format
 msgid "<a href=\"%s\">Online manual</a> and installed HTML Help manual"
 msgstr "<a href=\"%s\">Online εγχειρίδιο</a> και εγκατεστημένη βοήθεια σε HTML"
 
-#: index.php:37
+#: index.php:35
 msgid "Highlights differences inside lines"
 msgstr "Επισημαίνει τις διαφορές εντός των γραμμών"
 
-#: index.php:76
+#: index.php:74
 #, c-format
 msgid ""
 "<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is "
@@ -565,7 +525,7 @@ msgstr ""
 "Το <a href=\"%1$s\">WinMerge %2$s</a> είναι η τελευταία σταθερή έκδοση και "
 "συνιστάται για τους περισσότερους χρήστες."
 
-#: index.php:96
+#: index.php:81
 #, c-format
 msgid ""
 "In addition, WinMerge is translated into a number of different languages. "
@@ -594,19 +554,15 @@ msgstr "Παρόμοια: %d%%"
 msgid "Folder Compare Tree View"
 msgstr "Σύγκριση φακέλων σε προβολή δέντρου"
 
-#: 404.php:18 docs/index.php:7 docs/index.php:9 engine/page.inc:343
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:345
 msgid "Documentation"
 msgstr "Τεκμηρίωση"
 
-#: 404.php:20 docs/index.php:10
+#: 404.php:20 docs/index.php:11
 msgid "Manual"
 msgstr "Εγχειρίδιο χρήσης"
 
-#: docs/releasenotes.php:11
-msgid "The release notes are currently not available..."
-msgstr "Οι σημειώσεις κυκλοφορίας είναι προς το παρόν μη διαθέσιμες..."
-
-#: docs/index.php:22
+#: docs/index.php:23
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
@@ -624,20 +580,20 @@ msgstr ""
 "Για να μάθετε τι έχει αλλάξει, διαβάστε τον <a href=\"%1$s\">κατάλογο "
 "αλλαγών</a> και τις <a href=\"%2$s\">σημειώσεις κυκλοφορίας</a>."
 
-#: index.php:35
+#: index.php:33
 msgid "Visual differencing and merging of text files"
 msgstr "Οπτική παρουσίαση διαφορών και συγχώνευση αρχείων κειμένου"
 
-#: 404.php:31 engine/page.inc:345 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:347 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "Στιγμιότυπα"
 
-#: downloads/index.php:9 downloads/index.php:126
+#: downloads/index.php:9 downloads/index.php:135
 msgid "Project File Releases"
 msgstr "Κυκλοφορίες αρχείου έργου"
 
-#: engine/engine.inc:36
+#: engine/engine.inc:39
 msgid "Turkish"
 msgstr "Τουρκικά"
 
@@ -653,11 +609,7 @@ msgstr ""
 "πλοήγηση σε \"βαθείς\" υποφακέλους. <em>Η προβολή δέντρου είναι διαθέσιμη "
 "μόνο στις αναδρομικές συγκρίσεις."
 
-#: downloads/index.php:149
-msgid "Beta Versions"
-msgstr "Εκδόσεις beta"
-
-#: index.php:92
+#: index.php:77
 #, c-format
 msgid ""
 "If you need support, look at our <a href=\"%s\">support page</a> for more "
@@ -666,19 +618,15 @@ msgstr ""
 "Αν θέλετε βοήθεια, διαβάστε στη <a href=\"%s\">σελίδα υποστήριξης</a> πώς "
 "μπορείτε να λάβετε υποστήριξη."
 
-#: index.php:63
+#: index.php:61
 msgid "Creates patch files (Normal-, Context- and Unified formats)"
 msgstr "Δημιουργεί αρχεία patch (μορφής Normal, Context και Unified)"
 
-#: index.php:71
+#: index.php:69
 msgid "Localizable interface"
 msgstr "Μεταφράσιμο περιβάλλον"
 
-#: downloads/index.php:150
-msgid "Experimental Builds"
-msgstr "Πειραματικές ενδιάμεσες εκδόσεις"
-
-#: index.php:69
+#: index.php:67
 msgid "Archive file support using 7-Zip"
 msgstr "Υποστήριξη για αρχειοθήκες μέσω 7-Zip"
 
@@ -695,11 +643,11 @@ msgstr ""
 msgid "File not valid."
 msgstr "Αρχείο μη έγκυρο."
 
-#: index.php:25
+#: index.php:23
 msgid "General"
 msgstr "Γενικά"
 
-#: index.php:66
+#: index.php:64
 msgid "Other"
 msgstr "Άλλα"
 
@@ -707,23 +655,19 @@ msgstr "Άλλα"
 msgid "GNU General Public License"
 msgstr "Γενική Δημόσια Άδεια GNU"
 
-#: docs/index.php:23
+#: docs/index.php:24
 msgid "Development Wiki"
 msgstr "Wiki Ανάπτυξης"
 
-#: downloads/index.php:148
-msgid "Stable Versions"
-msgstr "Σταθερές εκδόσεις"
-
-#: downloads/index.php:106
+#: downloads/index.php:115
 msgid "Other Versions"
 msgstr "Άλλες εκδόσεις"
 
-#: engine/page.inc:303
+#: engine/page.inc:305
 msgid "Download Now!"
 msgstr "Άμεση λήψη!"
 
-#: index.php:42
+#: index.php:40
 msgid "Folder Compare"
 msgstr "Σύγκριση φακέλων"
 
@@ -736,7 +680,7 @@ msgstr ""
 "Επειδή το WinMerge είναι έργο <a href=\"%s\">ανοιχτού κώδικα</a>, μπορείτε "
 "να το χρησιμοποιείτε δωρεάν."
 
-#: index.php:22
+#: index.php:20
 msgid ""
 "WinMerge is highly useful for determining what has changed between project "
 "versions, and then merging changes between versions. WinMerge can be used as"
@@ -755,11 +699,11 @@ msgstr ""
 "Αυτός ο ιστοχώρος πρόσφατα υπέστη μεγάλες αλλαγές και ίσως γι' αυτό "
 "βρεθήκατε σε αυτήν τη σελίδα."
 
-#: downloads/index.php:53 downloads/index.php:59 downloads/index.php:65
+#: downloads/index.php:59 downloads/index.php:66 downloads/index.php:73
 msgid "Binaries"
 msgstr "Δυαδικά αρχεία"
 
-#: docs/index.php:20
+#: docs/index.php:21
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -770,12 +714,12 @@ msgstr ""
 "σημαντικών αλλαγών, των βελτιώσεων, των επιδιορθώσεων σφαλμάτων και των <a "
 "href=\"%2$s\">γνωστών προβλημάτων</a> στην τρέχουσα κυκλοφορία του WinMerge."
 
-#: index.php:38
+#: index.php:36
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr ""
 "Η περιοχή διαφορών εμφανίζει την εκάστοτε διαφορά σε δύο κατακόρυφα παράθυρα"
 
-#: engine/engine.inc:35
+#: engine/engine.inc:38
 msgid "Swedish"
 msgstr "Σουηδικά"
 
@@ -796,29 +740,25 @@ msgstr ""
 "Το WinMerge βρίσκεται στην έκδοση <strong>%1$s</strong>, που κυκλοφόρησε "
 "στις <strong>%2$s</strong>."
 
-#: 404.php:30 engine/page.inc:344
+#: 404.php:30 engine/page.inc:346
 msgid "Downloads"
 msgstr "Λήψεις"
 
-#: engine/page.inc:348
+#: engine/page.inc:350
 msgid "WinMerge Translations"
 msgstr "Μεταφράσεις του WinMerge"
 
-#: index.php:8 index.php:78
-msgid "Project News"
-msgstr "Νέα για το έργο"
-
-#: engine/page.inc:297
+#: engine/page.inc:299
 #, c-format
 msgid "Version %1$s; %2$s MB"
 msgstr "Έκδοση%1$s; %2$s MB"
 
-#: engine/engine.inc:28
+#: engine/engine.inc:31
 msgid "Polish"
 msgstr "Πολωνικά"
 
 #: translations/translations.inc:74 translations/translations.inc:88
-#: translations/translations.inc:106
+#: translations/translations.inc:111
 msgid "Translated"
 msgstr "Μεταφρασμένα"
 
@@ -826,11 +766,11 @@ msgstr "Μεταφρασμένα"
 msgid "Error 404 (Page Not Found)"
 msgstr "Σφάλμα 404 (Η σελίδα δεν βρέθηκε)"
 
-#: translations/translations.inc:105
+#: translations/translations.inc:110
 msgid "Graph"
 msgstr "Γράφημα"
 
-#: index.php:95
+#: index.php:80
 msgid ""
 "WinMerge is an open source project, which means that the program is "
 "maintained and developed by volunteers."
@@ -838,7 +778,7 @@ msgstr ""
 "Το WinMerge είναι έργο ανοιχτού κώδικα, δηλαδή το πρόγραμμα το συντηρούν και"
 " το αναπτύσσουν εθελοντές."
 
-#: index.php:30
+#: index.php:28
 msgid "Tabbed interface"
 msgstr "Περιβάλλον με καρτέλες"
 
@@ -852,7 +792,7 @@ msgid "Buy WinMerge merchandise"
 msgstr "Αγοράστε WinMerge εμπορευμάτα"
 
 #: translations/translations.inc:76 translations/translations.inc:89
-#: translations/translations.inc:107
+#: translations/translations.inc:112
 msgid "Fuzzy"
 msgstr "Παρόμοια"
 
@@ -865,7 +805,7 @@ msgstr "Μεταφραστές"
 msgid "Translations Status (Website)"
 msgstr "Κατάσταση μεταφράσεων (ιστοχώρος)"
 
-#: docs/index.php:11
+#: docs/index.php:12
 #, c-format
 msgid ""
 "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents "
@@ -874,7 +814,7 @@ msgstr ""
 "Το <a href=\"%s\">εγχειρίδιο χρήσης</a> εξηγεί πώς χρησιμοποιείται το "
 "WinMerge και τεκμηριώνει τις μπορεί να κάνει και τι όχι."
 
-#: downloads/index.php:121
+#: downloads/index.php:130
 msgid "WinMerge Portable"
 msgstr "Φορητό WinMerge"
 
@@ -884,7 +824,7 @@ msgstr "Φορητό WinMerge"
 msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr "Αν εντοπίσετε σφάλμα, υποβάλετε <a href=\"%s\">αναφορά σφάλματος</a>."
 
-#: index.php:7
+#: index.php:6
 msgid ""
 "WinMerge, free, open source, Windows, windiff, diff, merge, compare, tool, "
 "utility, text, file, folder, directory, compare files, compare folders, "
@@ -899,7 +839,7 @@ msgstr ""
 msgid "Download WinMerge"
 msgstr "Λήψη WinMerge"
 
-#: index.php:40
+#: index.php:38
 msgid "Moved lines detection"
 msgstr "Εντοπισμός μετακινημένων γραμμών"
 
@@ -912,63 +852,63 @@ msgstr ""
 "Το WinMerge είναι λογισμικό <a href=\"%1$s\">ανοιχτού κώδικα</a> διεπόμενο "
 "από τη <a href=\"%2$s\">Γενική Δημόσια Άδεια GNU</a>."
 
-#: downloads/index.php:144
+#: downloads/index.php:145
 msgid "View all file releases&hellip;"
 msgstr "Προβολή όλων των κυκλοφοριών αρχείων&hellip;"
 
-#: downloads/index.php:22
+#: downloads/index.php:23
 msgid "Size"
 msgstr ""
 
-#: downloads/index.php:24
+#: downloads/index.php:25
 msgid "Format"
 msgstr ""
 
-#: downloads/index.php:28 downloads/index.php:34 downloads/index.php:40
-#: downloads/index.php:46 downloads/index.php:52 downloads/index.php:58
-#: downloads/index.php:64 downloads/index.php:70
+#: downloads/index.php:30 downloads/index.php:37 downloads/index.php:44
+#: downloads/index.php:51 downloads/index.php:58 downloads/index.php:65
+#: downloads/index.php:72 downloads/index.php:79
 #, c-format
 msgid "%s MB"
 msgstr ""
 
-#: downloads/index.php:30 downloads/index.php:36 downloads/index.php:42
-#: downloads/index.php:48
+#: downloads/index.php:32 downloads/index.php:39 downloads/index.php:46
+#: downloads/index.php:53
 msgid "EXE"
 msgstr ""
 
-#: downloads/index.php:54 downloads/index.php:60 downloads/index.php:66
+#: downloads/index.php:60 downloads/index.php:67 downloads/index.php:74
 msgid "ZIP"
 msgstr ""
 
-#: downloads/index.php:72
+#: downloads/index.php:81
 msgid "7z"
 msgstr ""
 
-#: engine/engine.inc:21
+#: engine/engine.inc:23
 msgid "Catalan"
 msgstr ""
 
-#: engine/engine.inc:30
+#: engine/engine.inc:33
 msgid "Portuguese (Portugal)"
 msgstr ""
 
-#: engine/engine.inc:32
+#: engine/engine.inc:35
 msgid "Spanish"
 msgstr ""
 
-#: engine/engine.inc:33
+#: engine/engine.inc:36
 msgid "Spanish (Venezuela)"
 msgstr ""
 
-#: engine/page.inc:128 engine/page.inc:171
+#: engine/page.inc:130 engine/page.inc:173
 msgid "You will see the difference…"
 msgstr ""
 
-#: engine/page.inc:193
+#: engine/page.inc:195
 msgid "Change Language"
 msgstr ""
 
-#: engine/page.inc:210
+#: engine/page.inc:212
 msgid "Project Pages"
 msgstr ""
 
@@ -1003,66 +943,62 @@ msgstr ""
 msgid "Website Status <em>from %s</em>"
 msgstr ""
 
-#: downloads/index.php:77
+#: downloads/index.php:86
 msgid "SHA-256 Checksums"
 msgstr ""
 
-#: downloads/index.php:107
+#: downloads/index.php:116
 msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
 msgstr ""
 
-#: downloads/index.php:108
+#: downloads/index.php:117
 msgid ""
 "WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
 "C++ 2008 runtimes that support Windows 2000."
 msgstr ""
 
-#: downloads/index.php:110 downloads/index.php:115
+#: downloads/index.php:119 downloads/index.php:124
 #, c-format
 msgid "Get version %s"
 msgstr ""
 
-#: downloads/index.php:117
+#: downloads/index.php:126
 msgid "Unofficial Versions"
 msgstr ""
 
-#: downloads/index.php:151
-msgid "All File Releases"
-msgstr ""
-
-#: engine/page.inc:346
+#: engine/page.inc:348
 msgid "WinMerge Source Code"
 msgstr ""
 
-#: index.php:27
+#: index.php:25
 msgid "Supports Microsoft Windows XP SP3 or newer"
 msgstr ""
 
-#: index.php:34 screenshots/index.php:15 screenshots/index.php:16
+#: index.php:32 screenshots/index.php:15 screenshots/index.php:16
 msgid "3-way File Comparison"
 msgstr ""
 
-#: index.php:34 index.php:50 index.php:56
+#: index.php:32 index.php:48 index.php:54
 msgid "New!"
 msgstr ""
 
-#: index.php:48
+#: index.php:46
 msgid "3-way Folder Comparison"
 msgstr ""
 
-#: index.php:50
+#: index.php:48
 msgid "Image Compare"
 msgstr ""
 
-#: index.php:52
+#: index.php:50
 msgid "Support many types of images"
 msgstr ""
 
-#: index.php:53
+#: index.php:51
 msgid "Can highlight the differences with blocks"
 msgstr ""
 
-#: index.php:54
+#: index.php:52
 msgid "Overlaying of the pictures is possible"
 msgstr ""
 
@@ -1100,13 +1036,13 @@ msgstr ""
 msgid "Website Status"
 msgstr ""
 
-#: docs/index.php:6
+#: docs/index.php:7
 msgid ""
 "WinMerge, documentation, manual, release notes, known issues, change log, "
 "Development Wiki"
 msgstr ""
 
-#: downloads/index.php:120
+#: downloads/index.php:129
 msgid "Continuous Integration Builds"
 msgstr ""
 
@@ -1136,11 +1072,11 @@ msgid ""
 "repository</a>."
 msgstr ""
 
-#: translations/translations.inc:310
+#: translations/translations.inc:315
 msgid "Maintainer"
 msgstr ""
 
-#: docs/index.php:12
+#: docs/index.php:13
 msgid "It is currently available in the following languages:"
 msgstr ""
 
@@ -1148,31 +1084,31 @@ msgstr ""
 msgid "Branch"
 msgstr ""
 
-#: downloads/index.php:35
+#: downloads/index.php:38
 msgid "Per-user installer"
 msgstr ""
 
-#: downloads/index.php:101
+#: downloads/index.php:110
 msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
 msgstr ""
 
-#: downloads/index.php:102
+#: downloads/index.php:111
 msgid "64-bit installer: Microsoft Windows 7 or newer"
 msgstr ""
 
-#: downloads/index.php:103
+#: downloads/index.php:112
 msgid "Admin rights for the installer (except for Per-user installer)"
 msgstr ""
 
-#: index.php:56
+#: index.php:54
 msgid "Table Compare"
 msgstr ""
 
-#: index.php:58
+#: index.php:56
 msgid "Shows CSV/TSV file contents in table format"
 msgstr ""
 
-#: index.php:59
+#: index.php:57
 msgid "Text can be wrapped for each column"
 msgstr ""
 
@@ -1188,7 +1124,7 @@ msgstr ""
 msgid "You can also download the current branches as ZIP file:"
 msgstr ""
 
-#: engine/engine.inc:34
+#: engine/engine.inc:37
 msgid "Slovenian"
 msgstr ""
 
@@ -1226,6 +1162,81 @@ msgstr ""
 msgid "Issues"
 msgstr ""
 
-#: engine/engine.inc:22
+#: engine/engine.inc:24
 msgid "Corsican"
 msgstr ""
+
+#: downloads/index.php:22
+msgid "Architecture"
+msgstr ""
+
+#: engine/engine.inc:30
+msgid "Korean"
+msgstr ""
+
+#: engine/engine.inc:40
+msgid "Traditional Chinese"
+msgstr ""
+
+#: engine/page.inc:48 engine/page.inc:52
+msgid "x86 (32-bit)"
+msgstr ""
+
+#: engine/page.inc:49 engine/page.inc:50 engine/page.inc:53
+msgid "x64 (64-bit)"
+msgstr ""
+
+#: engine/page.inc:51 engine/page.inc:54
+msgid "ARM64 (64-bit)"
+msgstr ""
+
+#~ msgid "The change log is currently not available..."
+#~ msgstr "Ο κατάλογος αλλαγών δεν είναι διαθέσιμος αυτήν τη στιγμή..."
+
+#~ msgid ""
+#~ "The release notes are a short summary of important changes, enhancements, "
+#~ "bug fixes and known issues in the current WinMerge release."
+#~ msgstr ""
+#~ "Οι σημειώσεις κυκλοφορίας είναι μια σύνοψη των σημαντικών αλλαγών, των "
+#~ "βελτιώσεων, των επιδιορθώσεων σφαλμάτων και των γνωστών προβλημάτων στην "
+#~ "τρέχουσα κυκλοφορία του WinMerge."
+
+#~ msgid "View all news&hellip;"
+#~ msgstr "Προβολή όλων των νέων&hellip;"
+
+#~ msgid ""
+#~ "The change log is a more complete list of changes in the last WinMerge "
+#~ "releases."
+#~ msgstr ""
+#~ "Ο κατάλογος αλλαγών είναι μια πλήρης λίστα των αλλαγών στις τελευταίες "
+#~ "κυκλοφορίες του WinMerge."
+
+#~ msgid ""
+#~ "WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
+#~ "issues, release"
+#~ msgstr ""
+#~ "WinMerge, σημειώσεις κυκλοφορίας, σύνοψη, αλλαγές, βελτιώσεις, επιδιορθώσεις"
+#~ " σφαλμάτων, γνωστά προβλήματα, κυκλοφορία"
+
+#~ msgid "WinMerge, change log, changes, release, tracker item, revision number"
+#~ msgstr ""
+#~ "WinMerge, κατάλογος αλλαγών, αλλαγή, κυκλοφορία, στοιχείο ιχνηλάτη, αριθμός "
+#~ "αναθεώρησης"
+
+#~ msgid "The release notes are currently not available..."
+#~ msgstr "Οι σημειώσεις κυκλοφορίας είναι προς το παρόν μη διαθέσιμες..."
+
+#~ msgid "Beta Versions"
+#~ msgstr "Εκδόσεις beta"
+
+#~ msgid "Experimental Builds"
+#~ msgstr "Πειραματικές ενδιάμεσες εκδόσεις"
+
+#~ msgid "Stable Versions"
+#~ msgstr "Σταθερές εκδόσεις"
+
+#~ msgid "Project News"
+#~ msgstr "Νέα για το έργο"
+
+#~ msgid "All File Releases"
+#~ msgstr ""
